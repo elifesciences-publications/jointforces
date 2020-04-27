@@ -1,5 +1,7 @@
 # jointforces
 
+### This code is associated with the paper from Mark, Grundy, Strissel, Bohringer et al., "Collective forces of tumor spheroids in three-dimensional biopolymer networks". eLife, 2020. http://doi.org/10.7554/eLife.51912
+
 A Python package for conducting 3D traction force microscopy on multicellular aggregates (so-called *spheroids*). `jointforces` provides high-level interfaces to the open-source finite element mesh generator [`Gmsh`](http://gmsh.info/) and to the [Python port](https://github.com/rgerum/saenopy) of the network optimizer [`SAENO`](https://github.com/Tschaul/SAENO), facilitating material simulations of contracting multicellular aggregates in highly non-linear biopolymer gels such as collagen. Additionally, `jointforces` provides an easy-to-use API for analyzing time-lapse images of contracting multicellular aggregates using the particle image velocimetry framework `OpenPIV`.
 
 ![Loading GIF...](https://raw.githubusercontent.com/christophmark/jointforces/master/docs/gifs/mcf7-raw.gif)
